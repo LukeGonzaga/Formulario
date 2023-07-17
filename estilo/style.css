@@ -4,7 +4,16 @@
     margin: 0px;
     padding: 0px;
 }
+fieldset{
+    margin: 15px;
+    padding: 7px;
+    border-radius: 10px;
+}
+div#serie{
+    padding-top: 20px;
+}
 body{
+    max-width: 70%;
     background-color: white;
     text-align: justify;
     padding: 50px;
@@ -12,6 +21,10 @@ body{
 }
 h1{
     text-align: center;
+}
+h1#titulo{
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 h2{
     text-align: center;

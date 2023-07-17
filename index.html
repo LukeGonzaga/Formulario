@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traçando perfil</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo\style.css">
 </head>
 <body>
     <div>
-        <h1>Perfil do Estudante</h1>
+        <h1>Perfil do Aluno</h1>
         <h2>Complete suas infomações</h2>
         <br>  
     </div>
     
     <form>
         <fieldset>
-            <div>
+            <div>  
+                <h1 id="titulo">Informações do Aluno</h1>
                 <label for="">Nome</label>
                 <input type="text"name='nome' id="nome">
             </div>
@@ -24,65 +25,72 @@
                 <input type="text" name="sobrenome" id="sobrenome">
             </div>
         </fieldset>
+        
+        <fieldset>
+            <div>
+                <h1 id="titulo">Contato</h1>
+                <label for="">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+        </fieldset>
 
-        <div>
-            <label for="">Email</label>
-            <input type="email" name="email" id="email">
-        </div>
-
-        <div>
-            <label for="">Qual sua materia escolar favorita?
-            </label>
-            <br>
-            <label for="">
-                <input type="radio" name="materia" value='Artes'
-                id="" checked>Artes
-            </label>
-            <label for="">
-                <input type="radio" name="materia" id="" value="Filosofia">Filosofia
-            </label>
-            <label for="">
-                <input type="radio" name="materia" id="" value="Sociologia">Sociologia
-            </label>
-            <label for="">
-                <input type="radio" name="materia" id="" value="Inglês">Inglês
-            </label>
-            <label for="">
-                <input type="radio" name="materia" id="" value="Física">Física
-            </label>
-            <label for="">
-                <input type="radio" name="materia" id="" value="Química">Química
-            </label>
-            <label for="">
-                <input type="radio" name="materia" id="" value="Biologia">Biologia
-            </label>
-            <label for="">
-                <input type="radio" name="materia" id="" value="geografia">Gegrafia
-            </label>
-            <label for="">
-                <input type="radio" name="materia" value="historia">História
-            </label>
-            <label for="">
-                <input type="radio" name="materia"  value="matematica">Matemática
-            </label>
-            <label for="">
-                <input type="radio" name="materia" id="linguaportuguesa">Língua Portuguesa.
-            </label>
-        </div>
-        <div>
-            <label for="">Série</label>
-            <br>
-            <select name="" id="serie">
-                <option value="" selected disabled>Selecione</option>
-                <option value="">Ensino Fudamental (1° a 4° Ano)</option>
-                <option value="">Ensino Fudamental (5° a 9° Ano)</option>
-                <option value="">Ensino Médio (1° a 3 Ano)</option>
-                <option value="">Ensino Superior Tecnologo</option>
-                <option value="">Ensino Superior Bacharelado</option>
-            </select>
-        </div>
+        <fieldset>
+            <div>
+                <h1 id="titulo">Preferencias acadêmicas</h1>
+                <label for="">Qual sua materia escolar favorita?
+                </label>
+                <br>
+                <label for="">
+                    <input type="radio" name="materia" value='Artes'
+                    id="" checked>Artes
+                </label>
+                <label for="">
+                    <input type="radio" name="materia" id="" value="Filosofia">Filosofia
+                </label>
+                <label for="">
+                    <input type="radio" name="materia" id="" value="Sociologia">Sociologia
+                </label>
+                <label for="">
+                    <input type="radio" name="materia" id="" value="Inglês">Inglês
+                </label>
+                <label for="">
+                    <input type="radio" name="materia" id="" value="Física">Física
+                </label>
+                <label for="">
+                    <input type="radio" name="materia" id="" value="Química">Química
+                </label>
+                <label for="">
+                    <input type="radio" name="materia" id="" value="Biologia">Biologia
+                </label>
+                <label for="">
+                    <input type="radio" name="materia" id="" value="geografia">Gegrafia
+                </label>
+                <label for="">
+                    <input type="radio" name="materia" value="historia">História
+                </label>
+                <label for="">
+                    <input type="radio" name="materia"  value="matematica">Matemática
+                </label>
+                <label for="">
+                    <input type="radio" name="materia" id="linguaportuguesa">Língua Portuguesa.
+                </label>
+            </div>
+            <div id="serie">
+                <label for="" id="titulo">Série:</label>
+                <br>
+                <select name="" id="serie">
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="">Ensino Fudamental (1° a 4° Ano)</option>
+                    <option value="">Ensino Fudamental (5° a 9° Ano)</option>
+                    <option value="">Ensino Médio (1° a 3 Ano)</option>
+                    <option value="">Ensino Superior Tecnologo</option>
+                    <option value="">Ensino Superior Bacharelado</option>
+                </select>
+            </div>
+        </fieldset>
     <fieldset>
-
+        <label for="">Selecione as </label><br><br>
+        <input type="checkbox" name="" id="">
     </fieldset>
     </form>
     
